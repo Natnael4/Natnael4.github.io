@@ -1,7 +1,9 @@
 #photome {
-    width: 150px;
-    background-color: lightblue;
-    /* height: 30%; */
+    width: 180px;
+    border: 2px solid rgb(31, 17, 17);
+    border-radius: 8px;
+    padding: 5px;
+   
     
   }
 
