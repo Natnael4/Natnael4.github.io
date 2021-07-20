@@ -58,3 +58,22 @@ body{
 #lastHeader{
     clear: left;
 }
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+  p::first-letter {
+    float: left;
+    line-height: 75px;
+    font-size: 75px;
+    font-family: Montserrat;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 3px;
+    
+  }
