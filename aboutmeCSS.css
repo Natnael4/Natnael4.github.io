@@ -1,0 +1,54 @@
+h1{
+    color: rgb(104, 3, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2{
+    color: rgb(1, 143, 148);
+}
+
+hr{
+    color: darkred;
+}
+
+p{
+    font-size: x-large;
+}
+
+li{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+body{
+    background-image: url("backgroundImage.jpeg");
+   
+}
+
+#happyphoto {
+    /* display: "Happy"; */
+    border:5px solid rgb(97, 37, 37);
+    
+    
+  }
+
+#sadphoto{
+    border: 5px solid rgb(93, 34, 90);
+    
+}
+
+#happyfigure{
+    float: left;
+    font-size: xx-large;
+    caption-side: bottom;
+}
+
+#sadfigure{
+    float: middle;
+    font-size: xx-large;
+    caption-side: bottom;
+}
