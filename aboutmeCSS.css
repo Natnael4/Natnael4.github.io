@@ -54,3 +54,7 @@ body{
     font-size: xx-large;
     caption-side: bottom;
 }
+
+#lastHeader{
+    clear: left;
+}
