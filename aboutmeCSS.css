@@ -32,12 +32,14 @@ body{
 #happyphoto {
     /* display: "Happy"; */
     border:5px solid rgb(97, 37, 37);
+    width:400px;
     
     
   }
 
 #sadphoto{
     border: 5px solid rgb(93, 34, 90);
+    width:400px;
     
 }
 
