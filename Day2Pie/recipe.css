@@ -1,6 +1,7 @@
 
 body{
     background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg);
+    background-attachment: fixed;
 }
 
 h1{
@@ -12,6 +13,7 @@ font-size: 22pt;
 font-family: Lucida Sans Unicode, Helvetica, Arial;
 font-weight: bold;
 text-decoration: underline;
+letter-spacing: 0.25em;
 
 }
 
@@ -24,6 +26,7 @@ h2{
     font-family: Lucida Sans Unicode, Helvetica, Arial;
     font-weight: normal;
     text-decoration: underline;
+    letter-spacing: 0.25em;
     
     }
 
@@ -39,6 +42,11 @@ div{
 .comment{
     background: #FFFFA8;
     font-style: italic;
+}
+
+#commentsid{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #linkpara2{
@@ -58,6 +66,11 @@ div{
     text-decoration: line-through;
 }
 
+ul.unorderedclass{
+
+list-style-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif); 
+
+}
 
 
 
