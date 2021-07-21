@@ -18,14 +18,16 @@ p{
 }
 
 li{
-    font-size: large;
+    font-size: 120%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
+    font-weight: bold;
     font-style: oblique;
 }
 
 body{
     background-image: url("backgroundImage.jpeg");
+    border-left: 5px double rgb(104, 3, 104) ;
+    border-right: 5px double rgb(104, 3, 104) ;
    
 }
 
@@ -76,4 +78,29 @@ a:hover {
     padding-right: 4px;
     padding-left: 3px;
     
+  }
+
+  dt{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 100%;
+      color: darkred;
+      font-weight: bold;
+      font-style: normal;
+  }
+
+  dd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:rgb(0, 0, 0);
+    font-style:normal;
+    font-weight: lighter;
+    
+  }
+
+  div{
+    border-bottom: 5px double tomato;
+    background-image: url("topimage.jpeg");
+            background-size: cover; 
+            height:50px; 
+            padding-top:80px;
   }
