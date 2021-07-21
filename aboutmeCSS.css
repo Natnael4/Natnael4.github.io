@@ -71,7 +71,7 @@ a:hover {
 
   p::first-letter {
     float: left;
-    line-height: 75px;
+    line-height: 70px;
     font-size: 75px;
     font-family: Montserrat;
     padding-top: 4px;
