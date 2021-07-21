@@ -1,4 +1,8 @@
 
+body{
+    background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg);
+}
+
 h1{
 padding: 15px;
 text-align: center;
