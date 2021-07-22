@@ -1,0 +1,95 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: rgb(176, 227, 243);
+  padding: 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header'
+    'menu menu menu'
+    'left middle right' 
+    'footer footer footer';
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: darkslategray;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style of the menus*/
+.menus {
+    grid-area: menu;
+    display: flex;
+    background-color: #2F4F4F;
+    border-right: black;
+}
+  
+/* Style of the menus links */
+
+a{
+    background-color: #2F4F4F;
+    margin: 10px;
+    padding: 8px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;   
+}
+
+/* Style of the menus when hovering */
+a:hover {
+    background-color:burlywood;
+    color: rgb(80, 26, 87);
+    text-decoration: underline;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header' 
+      'menu menu'
+      'left right' 
+      'middle middle'  
+      'footer footer';
+  }
+}
