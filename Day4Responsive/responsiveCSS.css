@@ -20,10 +20,10 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas: 
-    'header header header'
-    'menu menu menu'
-    'left middle right' 
-    'footer footer footer';
+    'header header header header'
+    'menu menu menu menu'
+    'left middle middle right' 
+    'footer footer footer footer';
 } 
 
 .left,
