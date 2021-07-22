@@ -96,7 +96,7 @@ dt{
 }
 
 #pagenumber{
-    background-color: #A2B964;
+    /* background-color: #A2B964; */
     text-align: center;
     padding-bottom: 0pt;
     
@@ -106,16 +106,6 @@ dt{
     padding-right: 5px;
 }
 
-
-
-/* #right{
-
-    padding-top: px;
-} */
-
-/* #left{
-    padding-top: 14px;
-} */
 
 .criticslogo{
     float: left;
