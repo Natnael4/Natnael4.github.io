@@ -13,7 +13,7 @@ body {
   background-color: rgb(176, 227, 243);
   padding: 0px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   
 }
 
@@ -37,16 +37,19 @@ body {
 /* Style the left column */
 .left {
   grid-area: left;
+  background-color:#aaa;
 }
 
 /* Style the middle column */
 .middle {
   grid-area: middle;
+  background-color:#bbb;
 }
 
 /* Style the right column */
 .right {
   grid-area: right;
+  background-color:#ccc;
 }
 
 /* Style the footer */
