@@ -13,7 +13,7 @@ body {
   background-color: rgb(176, 227, 243);
   padding: 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   
 }
 
@@ -55,9 +55,11 @@ body {
 /* Style the footer */
 .footer {
   grid-area: footer;
+  color: white;
   background-color: darkslategray;
   padding: 10px;
   text-align: center;
+  font-size: 18px;
 }
 
 /* Style of the menus*/
