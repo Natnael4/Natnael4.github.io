@@ -1,0 +1,51 @@
+
+        header {
+            background-color: lightblue;
+            font-weight: bolder;
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .menus {
+            background-color: darkslategrey;
+            padding: 8px;
+        }
+        a {
+            color: white;
+            font-weight: bolder;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 13px;
+            border-right: 4px solid black;
+        }
+
+        footer {
+            background-color: darkslategrey;
+            color:white;
+            font-weight: bolder;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+            nav ul li a.nav-link {
+                color: white;
+                border-right: 2px solid black;
+            }
+
+        .col1 {
+            background-color: #9d9d9d;
+        }
+
+        .col2 {
+            background-color: #bbbbbb;
+        }
+
+        .col3 {
+            background-color: #d6d6d6;
+        }
+
+        .col1,
+        .col2,
+        .col3 {
+            height: 200px;
+        }
+   
