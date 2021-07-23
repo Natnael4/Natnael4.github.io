@@ -76,7 +76,7 @@ body {
 
 /* Style of the menus links */
 
-a{
+.menus a{
     background-color: #2F4F4F;
     margin: 10px;
     padding: 8px;
@@ -103,3 +103,4 @@ a:hover {
       'footer footer';
   }
 }
+
