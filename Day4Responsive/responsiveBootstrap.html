@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Responsive layout</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <style>
+        header {
+            background-color: rgb(154, 194, 207);
+            font-weight: bolder;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .menus {
+            background-color: darkslategrey;
+            padding: 8px;
+        }
+
+        .menus a {
+            color: white;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif, serif;
+            padding: 13px;
+            border-right: 2px solid black;
+            text-decoration: none;
+        }
+
+        .menus a:hover {
+            text-decoration: underline;
+            background-color: brown;
+
+        }
+
+        footer {
+            background-color: darkslategrey;
+            color: white;
+            font-weight: bolder;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .col1 {
+            background-color: #9d9d9d;
+        }
+
+        .col2 {
+            background-color: #bbbbbb;
+        }
+
+        .col3 {
+            background-color: #d6d6d6;
+        }
+
+        .col1,
+        .col2,
+        .col3 {
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="text-center py-4">Header</header>
+        <div class="menus">
+            <a href="#Menu1">Menu1</a>
+            <a href="#Menu2">Menu2</a>
+            <a href="#Menu3">Menu3</a>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3 order-1 col1 p-3">Column1</div>
+            <div class="col-12 col-md-6 order-3 order-md-2 col2 p-3">Column2</div>
+            <div class="col-6 col-md-3 order-2 order-md-3 col3 p-3">Column3</div>
+        </div>
+        <footer class="text-center py-4">Footer</footer>
+        <br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <a id="htmlcheckersid"
+        href="https://validator.w3.org/nu/?doc=https://natnael4.github.io/Day4Responsive/responsiveBootstrap.html">
+        <img src="w3c-html.png" alt="Valid HTML5" />
+    </a>
+</body>
+
+</html>
