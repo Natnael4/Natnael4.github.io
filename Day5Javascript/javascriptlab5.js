@@ -156,28 +156,30 @@ console.log("Expected output of filterLongWords ['Natnael', 'John', 'George'] is
 /* *****************************************************************************************************/
 
 // prob 8
-document.writeln("Modified problem 8 output: <br/>");
+console.log("Modified problem 8 output: <br/>");
 
-const a = [2, 1, 4, 6, 9];
+const a = [2, 1, 4, 6, 9, 3];
 const b = a.map(function (elem) {
     return elem * 10;
 })
+console.log("The result for question a is : " + b)
 
-
-document.writeln(b.toString() + "<br/>");
 const c = a.filter(function (elem, i, array) {
     return elem === 3;
 });
-console.log();
+console.log("The result for question b is : " + c );
 
-document.writeln(c.toString() + "<br/>");
+
 const d = a.reduce(function (prevValue, elem, i, array) {
     return prevValue * elem;
 });
-document.writeln(d + "<br/>");
+console.log("The result for question c is : " + d);
 
 
 const d2 = a.find(function (elem) { return elem > 1; }); 
 const d3 = a.findIndex(function (elem) { return elem > 1; }); 
-document.writeln(d2 + "<br/>");
-document.writeln(d3);
+
+console.log("The result for question d is : " + d2);
+console.log("The result for question e is : " + d3);
+
+abss
