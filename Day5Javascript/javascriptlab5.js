@@ -181,5 +181,3 @@ const d3 = a.findIndex(function (elem) { return elem > 1; });
 
 console.log("The result for question d is : " + d2);
 console.log("The result for question e is : " + d3);
-
-abss
