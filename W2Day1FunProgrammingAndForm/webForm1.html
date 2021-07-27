@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web Form Exercise 1">
+    <link rel="stylesheet" type="text/css" href="webForm1.css">
+    <title>Web Form 1</title>
+</head>
+
+<body>
+    <div class="box">
+        <!-- <section> -->
+        <h1>Web Form 1</h1>
+        <form action="url">
+            <div class="input text">
+                <label for="email">Email Address: </label>
+                <input type="email" name="email" placeholder="Enter email" required="true">
+                <p class="info">We'll never share your email with anyone else.</p>
+            </div>
+            <div class="input text">
+                <label for="password">Password: </label>
+                <input type="password" name="password" pattern="(?=.*\d+)(?=.*?[a-z])(?=.*[?A-Z])(?=.*?[0-9]).{10,}"
+                    placeholder="Password" required
+                    title="The password contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+            </div>
+            <div class="input text">
+                <label for="web">Website URL:</label>
+                <input type="url" name="website" pattern="https?://.+" title="Please enter a URL"
+                    placeholder="Enter website url" required>
+            </div>
+            <div class="input checkbox">
+                <input type="checkbox" name="checkMeOut" id="checkbox" value>
+                <label>Check me out</label>
+            </div>
+            <div class="input submit">
+                <input type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+        <!-- </section> -->
+    </div>
+</body>
+
+</html>
