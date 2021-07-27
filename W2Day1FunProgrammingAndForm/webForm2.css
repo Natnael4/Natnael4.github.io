@@ -1,0 +1,17 @@
+.nav-divider {
+    border-left: 1px solid white;
+}
+
+#mainNav {
+    background-color: #35a7e8;
+    margin: 0%;
+}
+
+h3{
+    font-weight:250;
+}
+
+.row{
+    padding-bottom: 100%;
+
+}
