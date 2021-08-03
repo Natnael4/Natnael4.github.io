@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0147)https://sakai.cs.miu.edu/access/content/attachment/b801faf5-5716-4c24-9f97-4035159bbf56/Assignments/9ee6aebb-154f-49f8-82f3-5281bb3ddabe/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Bank Accounts</title>
+    
+
+    <link rel="stylesheet" href="./Bank Accounts_files/mocha.css">
+    <script src="./Bank Accounts_files/mocha.js"></script>
+    <script src="./Bank Accounts_files/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+
+    <script src="account.js"></script>
+    <script src="savingsaccount.js"></script>
+    <script src="checkingaccount.js"></script>
+    <script src="bank.js"></script>
+    <script src="test.js"></script>
+</head>
+
+<body>
+    <div id="mocha"><ul id="mocha-stats"><li class="progress"><canvas width="44" height="44"></canvas></li><li class="passes"><a href="javascript:void(0);">passes:</a> <em>0</em></li><li class="failures"><a href="javascript:void(0);">failures:</a> <em>0</em></li><li class="duration">duration: <em>0</em>s</li></ul><ul id="mocha-report"></ul></div>
+    <script>
+        mocha.run();
+    </script>
+
+
+
+</body></html>
