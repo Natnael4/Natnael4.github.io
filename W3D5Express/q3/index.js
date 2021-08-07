@@ -6,11 +6,11 @@ app.use('/css', express.static(path.join(__dirname, 'css')));
 
 const date = new Date();
 const hour = date.getHours();
-let cssSt = "";
+let css1 = "";
 if(hour >= 6 && hour <= 18){
-    cssSt = '<link href="css/day.css" rel="stylesheet">';
+    css1 = '<link href="css/day.css" rel="stylesheet">';
 }else{
-    cssSt = '<link href="css/night.css" rel="stylesheet">';
+    css1 = '<link href="css/night.css" rel="stylesheet">';
 }
 app.use('/', function(req, res){
         let html5 = '<!DOCTYPE html>' +
@@ -18,7 +18,7 @@ app.use('/', function(req, res){
             '<head>' +
             '<meta charset="UTF-8">' +
             '<title>Title</title>' +
-             cssSt +
+             css1 +
             '</head>' +
             '<body>' +
             '<form action="/result" method="POST">'+
