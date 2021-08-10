@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>W4D1 Lab</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (key in cookies) { %>
+                <tr>
+                    <td>
+                        <%= key %>
+                    </td>
+                    <td>
+                        <%= cookies[key] %>
+                    </td>
+                    <% } %>
+                </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form action="add" method="post">
+        <label>Key: <input name="key" type="text"></label>
+        <label>Value: <input name="value" type="text"></label>
+        <button type="submit">Add Cookie</button>
+    </form>
+</body>
+
+</html>
