@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'section section'
+    'footer footer';
+}
+
+header{
+    background: #3f937f;
+    color: white;
+    grid-area: header;
+    align-items: center;
+    padding: 10px;
+}
+h1{ text-align: center }
+section{
+    background: white;
+    color: gray;
+    grid-area: section;
+    padding: 10px;
+}
+
+footer{
+    background: #000000;
+    color: white;
+    grid-area: footer;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px;
+
+}
+.content-car{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item{
+    background: #dfdfdf;
+    padding: 10px;
+    margin: 16px;
+}

@@ -1,0 +1,7 @@
+<h2>Items in you Cart (<%=total %>)</h2>
+<% for (const item of cartProducts) { %>
+    <div class="item">
+        <h3>Quantity: (<%= item.quantity %>) <%= item.name %> </h3>
+        <p>Price: US$ <%= item.price %></p>
+    </div>
+<% } %>
